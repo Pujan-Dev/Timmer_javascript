@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400&display=swap');
+
+* {
+    font-family: 'Roboto Mono', monospace;
+    padding: 0%;
+    margin: 0px;
+    background-color: #222831;
+    color: #EEEEEE;
+    user-select: none;
+    /* supported by Chrome and Opera */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+}
+
+.CONTAINER {
+    display: grid;
+    place-items: center;
+    align-items: center;
+    min-height: 95vh;
+}
+
+.Inner_CONTAINER {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.TIME {
+    display: flex;
+    gap: 5em;
+}
+
+p {
+    font-size: 75px;
+}
+
+.TIME {
+    padding: 100px
+}
+
+span {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#box {
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+    font-family: 'Kanit', sans-serif;
+    font-size: large;
+    margin: 0em 1em;
+    background-color: #01c2cc;
+    color: #ffffff;
+    padding: 12px 14px;
+    border: none;
+    border-radius: 12px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #01c2cc;
+}
+
+button:disabled {
+    opacity: .4;
+}
+
+.Copy {
+    position: absolute;
+    font-weight: 120;
+    font-size: 1rem;
+
+}
